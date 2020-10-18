@@ -1,5 +1,8 @@
-num1 = int(input("Enter 1st number"))
-num2 = int(input("Enter 2nd number"))
+# GCD Program
+print("Program to get GCD of 2 numbers\n")
+
+num1 = int(input("Enter 1st number : "))
+num2 = int(input("Enter 2nd number : "))
 
 def get_gcd(a, b):
     if b == 0:
